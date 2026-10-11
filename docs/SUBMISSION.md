@@ -23,9 +23,9 @@ Role-based access (Principal, HoD, Mentor, Placement Officer, and a Student self
 React 19 + TypeScript + Vite + Tailwind + ECharts · FastAPI (Python) · pandas, scikit-learn, SciPy · PostgreSQL (Supabase) · Groq / OpenRouter / Gemini (OpenAI-compatible APIs) · Docker on Render · GitHub Actions
 
 **Links**
-- Deployed app: Add your Render URL after deployment.
+- Deployed app: https://prajna-w5i3.onrender.com
 - GitHub: https://github.com/Natural-navya/Prajna
-- API docs: Add your Render URL followed by `/api/docs` after deployment.
+- API docs: https://prajna-w5i3.onrender.com/api/docs
 - Success Score note: https://github.com/Natural-navya/Prajna/blob/main/docs/SUCCESS_SCORE.md
 
 **Test access / evaluator notes**

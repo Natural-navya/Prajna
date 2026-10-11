@@ -10,7 +10,7 @@ AI-powered platform that brings scattered student data together into one Student
 
 Built for the KPMG × byteXL **HacXlerate** problem statement: *AI-Powered Student Analytics and Success Platform*.
 
-**Deployment:** Deploy this repository with Render using `render.yaml`; add your live URL here after deployment. Demo logins are below.
+**Live app:** https://prajna-w5i3.onrender.com · **API docs:** https://prajna-w5i3.onrender.com/api/docs · demo logins below
 
 ## Highlights
 - **7-source data integration** with ID reconciliation, cleaning and a data-quality report

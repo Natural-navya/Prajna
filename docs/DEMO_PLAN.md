@@ -1,6 +1,6 @@
 # Demo & Slides Plan
 
-- **Live app:** Add your Render URL after deployment (demo logins use password `Prajna@2026`; one-click role buttons are on the login page)
+- **Live app:** https://prajna-w5i3.onrender.com (demo logins use password `Prajna@2026`; one-click role buttons are on the login page)
 - **Slides:** Add your slide deck link after preparing it.
 - **Repo:** https://github.com/Natural-navya/Prajna
 
