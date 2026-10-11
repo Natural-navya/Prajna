@@ -2,6 +2,7 @@ import { useState, type FormEvent } from 'react'
 import { Link } from 'react-router-dom'
 import { Bot, Send, User } from 'lucide-react'
 import { api } from '../api'
+import { MarkdownText } from '../MarkdownText'
 import { Button, Card, Logo, PageHeader } from '../ui'
 
 const SUGGESTIONS = [
@@ -45,7 +46,7 @@ export default function Copilot() {
             <div key={i} className="flex gap-3">
               <div className={`grid h-8 w-8 shrink-0 place-items-center rounded-full ${m.role === 'ai' ? 'bg-accent text-white' : 'bg-surface-2 text-ink-2'}`}>{m.role === 'ai' ? <Bot className="h-4 w-4" /> : <User className="h-4 w-4" />}</div>
               <div className="min-w-0 flex-1">
-                <p className="whitespace-pre-wrap text-sm leading-relaxed">{m.text}</p>
+                <p className="whitespace-pre-wrap text-sm leading-relaxed"><MarkdownText>{m.text}</MarkdownText></p>
                 {m.table && m.table.length > 0 && (
                   <div className="mt-2 max-h-72 overflow-auto rounded-lg border border-line">
                     <table className="w-full whitespace-nowrap text-xs tnum">
