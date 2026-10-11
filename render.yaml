@@ -1,0 +1,20 @@
+# Render Blueprint: New → Blueprint → select this repo.
+services:
+  - type: web
+    name: prajna
+    runtime: docker
+    plan: free
+    healthCheckPath: /api/v1/health
+    envVars:
+      - key: DATABASE_URL        # Supabase → Connect → Session pooler URI (port 5432). Leave empty to use SQLite.
+        sync: false
+      - key: JWT_SECRET
+        generateValue: true
+      - key: GEMINI_API_KEY      # any one AI key enables Copilot & AI briefs (fallback order below)
+        sync: false
+      - key: GROQ_API_KEY
+        sync: false
+      - key: OPENROUTER_API_KEY
+        sync: false
+      - key: AI_PROVIDER_PRIORITY
+        value: groq,openrouter,gemini
